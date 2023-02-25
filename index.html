@@ -8,6 +8,7 @@
         <title>Campus Performance</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet" />
@@ -19,7 +20,23 @@
             <div class="masthead-content text-white">
                 <div class="container-fluid px-4 px-lg-0">
                     <h1 class="fst-italic lh-1 mb-4">Campus Performance</h1>
-                    <p class="mb-5">El nostre lloc web estarà disponible aviat.</p>
+                    <p class="mb-5">La nostra web s'està actualitzant. Inscriviu-vos a continuació per rebre actualitzacions i una notificació quan comencem!</p>
+                    <form id="contactForm">
+                        <div class="row input-group-newsletter">
+                            <div class="col"><input class="form-control" id="email" name="email" type="email" placeholder="Introduïu l'adreça de correu..." aria-label="Introduïu l'adreça de correu..." required="required" /></div>
+                            <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notificar-me!</button></div>
+                        </div>
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center mb-3 mt-2">
+                                <div class="fw-bolder">Formulari enviat correctament!</div>
+                            </div>
+                        </div>
+                        <div class="d-none" id="submitErrorMessage">
+                            <div class="text-center text-danger mb-3 mt-2">
+                                <div class="fw-bolder">S'ha produït un error en enviar el formulari!</div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
