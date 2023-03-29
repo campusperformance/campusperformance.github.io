@@ -1,0 +1,29 @@
+        <section class="page-section {{ include.bgcolor }}" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">{{ site.data.home.about.heading }}</h2>
+                    <h3 class="section-subheading text-muted">{{ site.data.home.about.subheading }}</h3>
+                </div>
+                <ul class="timeline">
+                    {% for about in site.about -%}
+                    <li class="{% cycle 'timeline', 'timeline-inverted' %}">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid lazy" data-src="assets/images/about/{{ about.img }}" alt="{{ about.alt }}" width="156" height="156"/></div>
+                        <div class="timeline-panel">
+                            {% if about.heading -%}
+                            <div class="timeline-heading">
+                                <h4>{{ about.period }}</h4>
+                                <h4 class="subheading">{{ about.title }}</h4>
+                            </div>
+                            {% endif -%}
+                            <div class="timeline-body"><p class="text-muted">{{ about.content | markdownify | remove: '<p>' | remove: '</p>' }}</p></div>
+                        </div>
+                    </li>
+                    {% endfor -%}
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>{{ site.data.home.about.last }}</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>

@@ -1,0 +1,36 @@
+        <section class="page-section lazy" id="contact" data-src="assets/images/map-image.png">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">{{ site.data.home.contact.heading }}</h2>
+                    <h3 class="section-subheading text-muted">{{ site.data.home.contact.subheading }}</h3>
+                </div>
+                <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" id="name" type="text" placeholder="Nom" required="required" data-validation-required-message="Si us plau, introduïu el vostre nom." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="email" type="email" placeholder="Email" required="required" data-validation-required-message="Si us plau, introduïu el vostre email." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <input class="form-control" id="phone" type="tel" placeholder="Telèfon (opcional)" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <textarea class="form-control" id="message" placeholder="Missatge" required="required" data-validation-required-message="Si us plau, introduïu el vostre missatge."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div id="success"></div>
+                        <button class="btn btn-primary btn-xl text-uppercase" type="submit">{{ site.data.home.contact.button }}</button>
+                    </div>
+                </form>
+            </div>
+        </section>

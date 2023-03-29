@@ -1,0 +1,17 @@
+        <section class="py-5 {{ include.bgcolor }}" id="logos">
+            <div class="container">
+                {% if site.data.home.logos.heading -%}
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">{{ site.data.home.logos.heading }}</h2>
+                    <h3 class="section-subheading text-muted">{{ site.data.home.logos.subheading }}</h3>
+                </div>
+                {% endif -%}
+                <div class="row">
+                    {% for logo in site.logos -%}
+                    <div class="col-md-3 col-sm-6 my-3 mx-auto">
+                        <a href="{{ logo.web }}" target="_blank" rel="noopener"><img class="img-fluid d-block mx-auto lazy" data-src="assets/images/logos/{{ logo.img }}" alt="{{ logo.alt }}" width="200" height="50"/></a>
+                    </div>
+                    {% endfor -%}
+                </div>
+            </div>
+        </section>

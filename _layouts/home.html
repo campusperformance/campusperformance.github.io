@@ -1,0 +1,14 @@
+---
+layout: default
+---
+{% include header.html -%}
+{% for section in site.data.sections -%}
+    {% if section.enable -%}
+        {% capture bgcolor %}{% cycle 'bg-white', 'bg-light' %}{% endcapture %}
+        {% include {{ section.name | append: ".html" }} bgcolor=bgcolor -%}
+        {% if section.name == "portfolio" -%}{% assign modals = true -%}{% endif -%}
+    {% endif -%}
+{% endfor -%}
+{% include footer.html %}
+{% if modals -%}{% include modals.html %}{% endif -%}
+{% include js.html %}

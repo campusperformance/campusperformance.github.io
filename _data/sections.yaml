@@ -1,0 +1,25 @@
+- name: introduction
+  display_name: el campus
+  enable: true
+  nav: true
+- name: portfolio
+  enable: false
+  nav: false
+- name: services
+  display_name: serveis
+  enable: true
+  nav: true
+- name: about
+  display_name: història
+  enable: true
+  nav: true
+- name: team
+  enable: false
+  nav: true
+- name: logos
+  enable: false
+  nav: false
+- name: contact
+  display_name: contacte
+  enable: true
+  nav: true

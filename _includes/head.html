@@ -1,0 +1,28 @@
+        {% if jekyll.environment == 'production' and site.google -%}
+        {% include gtm.html -%}
+        {% endif -%}
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="{{ site.data.home.description }}" />
+        <title>{{ page.title }}</title>
+        {% include seo.html -%}
+        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        {% if jekyll.environment == 'production' and site.google -%}
+        <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+        {% endif -%}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.10/jquery.lazy.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.10/plugins/jquery.lazy.youtube.min.js" defer></script>
+        <script src="assets/js/jqBootstrapValidation.js" defer></script>
+        <script src="assets/js/contact_me.js" defer></script>
+        <script src="assets/js/scripts.js" defer></script>
+        <script src="assets/js/utils.js" defer></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Slab:100,300,400,700&display=swap" rel="stylesheet" type="text/css" />
+        <link href="{{ "assets/css/styles.css" | prepend: site.baseurl }}" rel="stylesheet" />
+        {% if jekyll.environment == 'production' and site.google -%}
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent/3.1.1/cookieconsent.min.css" />
+        {% endif -%}

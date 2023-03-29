@@ -1,0 +1,39 @@
+title: Campus Performance
+description: Web del Campus de Futbol Performance
+header:
+  enable_text: false
+  heading: It's Nice To Meet You
+  subheading: Welcome!
+  button:
+    text: Contacte
+    link: "#contact"
+introduction:
+  heading: El Campus
+  subheading: Filosofia
+services:
+  heading: Serveis
+  subheading: Què oferim?
+portfolio:
+  heading: El Campus
+  subheading: Filosofia
+about:
+  heading: Història
+  subheading: 20 anys fent camí
+  last: Què serà el següent? Descobrim-ho junts!
+team:
+  heading: Our Amazing Team
+  subheading: Lorem ipsum dolor sit amet consectetur.
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+logos:
+  heading:
+  subheading:
+contact:
+  heading: Contacte
+  subheading: Com podem ajudar-te?
+  button: Només a un clic de distància
+  url: https://formkeep.com/f/349a5f186865
+footer:
+  copyright: Copyright © Campus Performance
+  socialmedia:
+    fa-instagram: https://instagram.com/campusperformance
+    fa-facebook-f: https://www.facebook.com/profile.php?id=100077454223409

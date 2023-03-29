@@ -1,0 +1,27 @@
+        <section class="page-section {{ include.bgcolor }}" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">{{ site.data.home.portfolio.heading }}</h2>
+                    <h3 class="section-subheading text-muted">{{ site.data.home.portfolio.subheading }}</h3>
+                </div>
+                <div class="row">
+                    {% for portfolio in site.portfolio %}
+                    <div class="col-lg-4 col-sm-6 mb-4 mx-auto">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal{{ forloop.index }}" id="{{ portfolio.title | slugify }}">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid lazy" data-src="assets/images/portfolio/{{ portfolio.thumbnail }}" alt="{{ portfolio.thumbnail_alt }}" width="400" height="300"/>
+                                <div class="expand"><i class="fas fa-info-circle fa-lg"></i></div>
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">{{ portfolio.title }}</div>
+                                <div class="portfolio-caption-subheading text-muted">{{ portfolio.subtitle }}</div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>

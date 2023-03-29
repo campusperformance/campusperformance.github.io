@@ -1,0 +1,19 @@
+<meta property="og:type" content="profile">
+<meta property="og:title" content="{{ site.data.home.title }}">
+<meta property="og:url" content="{{ "https://www.campusperformance.es" }}{{ page.url | relative_url }}">
+<meta property="og:image" content="{{ site.data.home.open_graph.image }}">
+<meta property="profile:first_name" content="{{ site.data.home.open_graph.name }}">
+<meta property="profile:last_name" content="{{ site.data.home.open_graph.surname }}">
+<meta property="og:description" content="{{ site.data.home.description }}">
+<meta property="og:locale" content="en">
+
+<link rel="canonical" href="{{ "https://www.campusperformance.es" }}{{ page.url | relative_url }}">
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  {% for item in site.data.home.structured_data -%}
+    "{{ item[0] }}": {{ item[1] | jsonify }}{% if forloop.rindex0 != 0 %},{% endif %}
+  {% endfor -%}
+}
+</script>
