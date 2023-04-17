@@ -7,6 +7,7 @@ title: Campus Performance | Normativa
 #### Inscripció:
 - Les places del Campus Performance són limitades i es concediran per rigorós ordre d'inscripció.
 - En cas de no poder assistir al Campus, es retornarà l'import sempre que es sol·liciti la baixa abans del 5 de juny de 2023.
+- Els preus publicats són en Euros i són vigents a excepció d’error tipogràfic.
 
 #### Comportament:
 - És obligatori per part dels jugadors i jugadores del Campus comportar-se de manera respectuosa amb els companys/es, entrenadors i membres del Campus Performance. El no compliment d'aquesta normativa pot provocar l'expulsió del Campus.
