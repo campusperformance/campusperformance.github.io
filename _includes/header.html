@@ -1,7 +1,7 @@
         {% if jekyll.environment == 'production' and site.google -%}
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google.container_id }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         {% endif -%}
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top {% if page.layout == 'page' -%}navbar-shrink{% endif -%}" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top {% if page.layout == 'page' or page.layout == 'policy' -%}navbar-shrink{% endif -%}" id="mainNav">
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="/#page-top"><img src="assets/images/navbar-logo.svg" alt="logo - go back to top"/></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -13,7 +13,7 @@
                 </div>
             </div>
         </nav>
-        {% if page.layout == 'page' -%}
+        {% if page.layout == 'page' or page.layout == 'policy' -%}
         <div style="padding:2.25rem;"></div>
         {% else -%}
         <header class="masthead">

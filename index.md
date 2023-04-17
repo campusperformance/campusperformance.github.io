@@ -1,5 +1,5 @@
 ---
 layout: home
-title: Campus Performance
+title: Campus Performance | La Satalia, Barcelona
 permalink: /
 ---

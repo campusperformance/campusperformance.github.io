@@ -1,12 +1,12 @@
-title: Campus Performance
-description: Web del Campus de Futbol Performance
+title: Campus Performance a la Satalia, Barcelona
+description: Web del Campus de Futbol Performance Barcelona
 header:
   enable_text: false
   heading: It's Nice To Meet You
   subheading: Welcome!
   button:
-    text: Contacte
-    link: "#contact"
+    text: Inscripció
+    link: "/inscripcio"
 introduction:
   heading: El Campus
   subheading: Filosofia
