@@ -13,7 +13,7 @@ title: Campus Performance | Normativa
 - És obligatori per part dels jugadors i jugadores del Campus comportar-se de manera respectuosa amb els companys/es, entrenadors i membres del Campus Performance. El no compliment d’aquesta normativa pot provocar l’expulsió del Campus.
 - Les famílies han de mantenir en tot moment un comportament correcte i respectuós amb qualsevol membre del Campus Performance, així com amb altres famílies dels participants del Campus.
 
-#### Funcionament:
+#### Funcionament:
 - La direcció del Campus Performance no es fa responsable de la desaparició o pèrdua d’objectes de valor, diners o altres.
 - Els danys que pugui patir el participant quedaran coberts exclusivament per la cobertura de la Seguretat Social.
 - Per dur a terme les activitats programades pel Campus Performance, es pot requerir traslladar-se fora de les instal·lacions, la qual cosa està autoritzada.
