@@ -1,6 +1,6 @@
 ---
 published: true
-img: 20aniversari.jpg
+img: 22aniversari.jpg
 img_alt:
 ---
 El **Campus Performance** va néixer l’any 2003 amb la il·lusió d’oferir als nens i nenes la possibilitat de gaudir de l’estiu a través de la pilota i el futbol.
